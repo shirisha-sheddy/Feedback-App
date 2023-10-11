@@ -1,0 +1,27 @@
+/* Write your CSS code here. */
+
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  width: 40%;
+}
+
+.card-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+}
